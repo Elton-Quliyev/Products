@@ -1,0 +1,458 @@
+body{
+    margin: 0;
+    background-color: #fafafa;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header{
+
+    .section1{
+        background-color: #23856d;
+        color: white;
+
+        .container{
+            height: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .telephone{
+                opacity: .8;
+
+                &__icon{
+                    margin: 2px 0px -3px -20px;
+
+                }
+                &__text{
+                }
+            }
+            .message{
+                opacity: .8;
+
+                &__icon{
+                    margin: 2px 0px -4px -20px;
+
+                }
+                &__text{
+                    
+                }
+            }
+            .header{
+                font-weight: 800;
+                font-size: 16px;
+
+                &__text{
+
+                }
+            }
+            .followus{
+                display: flex;
+
+                &__text{
+
+                }
+                &__socialmedia{
+                    display: flex;
+
+                    &-media{
+                        margin-left: 15px;
+
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    .section2{
+
+    .container{
+        height: 65px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+
+        .name{
+            &__header{
+                font-size: xx-large;
+                position: relative;
+                right: 24px;
+
+            }
+        }
+
+        .navbar{
+
+            &__list{
+                display: flex;
+                list-style-type: none;
+                width: 350px;
+                align-items: center;
+
+                &-item{
+                    font-size: 17px;
+                    margin-right: 30px;
+                }
+                
+            }
+        }
+        .loginform{
+            display: flex;
+
+            &__register{
+
+                &-icon{
+
+                }
+                &-text{
+                    color: #23a6f0;
+                    font-size: 17px;
+                }
+            }
+
+            &__icons{
+               
+
+                &-icon{
+                    margin-left: 23px;
+
+                }
+            }
+        }
+    }
+    }
+}
+
+
+#main{
+
+    .section1{
+
+        .buttons{
+            
+            height: 75px;
+            display: flex;
+            position: relative;
+            left: 87px;
+
+            &__btn1{
+                border: none;
+                background-color: #fafafa;
+                font-size: 17px;
+                font-weight: 700;
+            }
+            &__btn2{
+                font-size: 17px;
+                border: none;
+                background-color: #fafafa;
+                color: #bdbdbd;
+            }
+        }
+
+        .container{
+            display: flex;
+            margin-left: 50px;
+            width: 80%;
+
+            .left{
+                margin: 0 40px 0 40px;
+
+                &__bigfoto{
+
+                    &-foto{
+                        margin-bottom: 10px;
+
+                    }
+                }
+                &__littlefoto{
+
+                    &-foto{
+                        margin-right: 7px;
+
+                    }
+                }
+            }
+
+            .right{
+                margin-left: 40px;
+
+                &__header{
+                    margin: 20px 0;
+                    font-size: 24px;
+                    font-weight: 400;
+
+                }
+
+                .stars{
+
+                    &__image{
+
+                    }
+                    &__text{
+                        font-size: 14px;
+                        font-weight: 700;
+                        opacity: .5;
+
+                    }
+                    
+                }
+                .information{
+
+                    &__prize{
+                        font-size: 24px;
+                        font-weight: 700;
+                        margin-bottom: 12px;
+
+                    }
+                    &__text1{
+                        opacity: .8;
+                        letter-spacing: 0.3px;
+
+                    }
+                    &__text2{
+                        color: #23a6f0;
+                        font-weight: 700;
+
+                    }
+                    &__text3{
+                        opacity: .7;
+
+                    }
+                    &__icons{
+
+                        &-color{
+
+                        }
+                    }
+
+                    .footer{
+                        display: flex;
+                        margin-top: 37px;
+                        height: 40px;
+                        
+                        &__btn{
+                            border: none;
+                            background-color: #23a6f0;
+                            color: white;
+                            padding: 10px 20px;
+                            border-radius: 5px;
+
+                        }
+                        .buttons{
+                            position: relative;
+                            left: 5px;
+                            top: 4px;
+                            margin-left: 10px;
+                        
+                        &__icons{
+                            margin-right: 10px;
+                            
+                            
+                            &-icon{
+                                background-color: white;
+                                border: 1px solid #bdbdbd;
+                                border-radius: 50%;
+                                padding: 5px;
+
+                            }
+                        }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .section2{
+        width: 100%;
+        background-color: #fff;
+
+        .header{
+            width: 80%;
+            
+
+            .navbar{
+                display: flex;
+                justify-content: space-evenly;
+                list-style-type: none;
+                font-size: 15px;
+                font-weight: 500;
+                opacity: .6;
+                margin: 26px;
+
+                &__item{
+                    padding-top: 23px;
+                }
+            }
+        }
+
+        .container{
+            width: 80%;
+
+           
+                .writing{
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 40px;
+
+                    .image{
+
+                        &__foto{
+                            padding-top: 22px;
+
+                        }
+                    }
+
+                    .text1{
+                        
+                        width: 28%;
+
+                        &__header{
+                            font-size: 21px;
+                            margin-top: 16px;
+
+                        }
+                        &__information{
+                            opacity: .7;
+                            font-size: 15.5px;
+
+                        }
+                    }
+                    .text2{
+
+                        &__header{
+                            font-size: 21px;
+                            margin-top: 16px;
+
+                        }
+                        &__information{
+                            margin-bottom: 0px;
+                            color: #737373;
+
+                            
+                        }
+                    }
+                }
+            
+        }
+    }
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+
+    .stickers{
+        width: 80%;
+        padding: 50px 35px;
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        &__sticker{
+
+
+        }
+    }
+}
+
+#footer{
+    background-color: rgb(255, 255, 255);
+
+    .container{
+        width: 100%;
+        height: 320px;
+
+        .writing{
+            width: 80%;
+            margin: 0 50px;
+            padding: 0 41px;
+            
+
+            .header{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                &__tittle{
+                    font-size: 25px;
+                    margin-bottom: 20px;
+
+                }
+                
+                .media{
+
+                    &__image{
+                        margin-right: 13px;
+
+                    }
+                }
+            }
+                .contact{
+
+                    .all{
+                        padding-left: 0;
+
+                        &__items{
+                            display: flex;
+                            justify-content: space-between;
+
+                            .column{
+                               list-style-type: none;
+                               padding-left: 0;
+
+                                &__one{
+                                    color: #737373;
+                                    font-weight: 600;
+                                    margin-bottom: 5px;
+
+                                    &-tittle{
+                                        font-size: 16px;
+                                        color: black;
+
+                                    }
+                                }
+                                .form{
+
+                                    &__email{
+                                        border: 1px solid #e6e6e6;
+                                        padding: 13px;
+                                        border-radius: 4px;
+                                        margin-bottom: 1px;
+
+                                    }
+                                    &__btn{
+                                        border: none;
+                                        padding: 13px;
+                                        background-color: #23a6f0;
+                                        color: #fff;
+                                        
+
+                                    }
+                                }
+
+                                &__text{
+                                    opacity: .6;
+                                    font-size: 13px;
+                                    letter-spacing: 0.1px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            
+        }
+    }
+}
+.sonluq{
+    padding: 24px 38px;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+    margin-left: 50px;
+    
+}
